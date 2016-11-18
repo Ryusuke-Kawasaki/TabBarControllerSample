@@ -13,7 +13,6 @@
 		664945201C199FE500E0CD43 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6649451F1C199FE500E0CD43 /* Images.xcassets */; };
 		664945231C199FE500E0CD43 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 664945211C199FE500E0CD43 /* LaunchScreen.xib */; };
 		6649452F1C199FE500E0CD43 /* TabBarControllerSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6649452E1C199FE500E0CD43 /* TabBarControllerSampleTests.swift */; };
-		664945441C1AA2FF00E0CD43 /* sample@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 664945431C1AA2FF00E0CD43 /* sample@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +36,6 @@
 		664945281C199FE500E0CD43 /* TabBarControllerSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarControllerSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6649452D1C199FE500E0CD43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6649452E1C199FE500E0CD43 /* TabBarControllerSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarControllerSampleTests.swift; sourceTree = "<group>"; };
-		664945431C1AA2FF00E0CD43 /* sample@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sample@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +77,6 @@
 		664945151C199FE500E0CD43 /* TabBarControllerSample */ = {
 			isa = PBXGroup;
 			children = (
-				664945381C1A999B00E0CD43 /* images */,
 				664945181C199FE500E0CD43 /* AppDelegate.swift */,
 				6649451A1C199FE500E0CD43 /* ViewController.swift */,
 				6649451C1C199FE500E0CD43 /* Main.storyboard */,
@@ -113,14 +110,6 @@
 				6649452D1C199FE500E0CD43 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		664945381C1A999B00E0CD43 /* images */ = {
-			isa = PBXGroup;
-			children = (
-				664945431C1AA2FF00E0CD43 /* sample@2x.png */,
-			);
-			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,7 +194,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				664945441C1AA2FF00E0CD43 /* sample@2x.png in Resources */,
 				6649451E1C199FE500E0CD43 /* Main.storyboard in Resources */,
 				664945231C199FE500E0CD43 /* LaunchScreen.xib in Resources */,
 				664945201C199FE500E0CD43 /* Images.xcassets in Resources */,
